@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # ✅ Configure Gemini API Key
-genai.configure(api_key="AIzaSyCogEvuJnOpaOep019tbtkTK1zIg0zb9_E")  # 🔐 Replace with your actual key
+genai.configure(api_key="")  # 🔐 Replace with your actual key
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # ---------------------------
